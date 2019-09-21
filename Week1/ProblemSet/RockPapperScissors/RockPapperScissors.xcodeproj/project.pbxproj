@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B369227423368FA200275124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B369227323368FA200275124 /* AppDelegate.swift */; };
-		B369227623368FA200275124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B369227523368FA200275124 /* ViewController.swift */; };
-		B369227923368FA200275124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B369227723368FA200275124 /* Main.storyboard */; };
-		B369227B23368FA300275124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B369227A23368FA300275124 /* Assets.xcassets */; };
-		B369227E23368FA300275124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B369227C23368FA300275124 /* LaunchScreen.storyboard */; };
+		B36922922336911E00275124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36922912336911E00275124 /* AppDelegate.swift */; };
+		B36922942336911E00275124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36922932336911E00275124 /* ViewController.swift */; };
+		B36922972336911E00275124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36922952336911E00275124 /* Main.storyboard */; };
+		B36922992336911F00275124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36922982336911F00275124 /* Assets.xcassets */; };
+		B369229C2336911F00275124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B369229A2336911F00275124 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B369227023368FA200275124 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B369227323368FA200275124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B369227523368FA200275124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B369227823368FA200275124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B369227A23368FA300275124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B369227D23368FA300275124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B369227F23368FA300275124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B369228E2336911E00275124 /* RockPapperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPapperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36922912336911E00275124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B36922932336911E00275124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B36922962336911E00275124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36922982336911F00275124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B369229B2336911F00275124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B369229D2336911F00275124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B369226D23368FA200275124 /* Frameworks */ = {
+		B369228B2336911E00275124 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B369226723368FA200275124 = {
+		B36922852336911E00275124 = {
 			isa = PBXGroup;
 			children = (
-				B369227223368FA200275124 /* RockPaperScissors */,
-				B369227123368FA200275124 /* Products */,
+				B36922902336911E00275124 /* RockPapperScissors */,
+				B369228F2336911E00275124 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B369227123368FA200275124 /* Products */ = {
+		B369228F2336911E00275124 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B369227023368FA200275124 /* RockPaperScissors.app */,
+				B369228E2336911E00275124 /* RockPapperScissors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B369227223368FA200275124 /* RockPaperScissors */ = {
+		B36922902336911E00275124 /* RockPapperScissors */ = {
 			isa = PBXGroup;
 			children = (
-				B369227323368FA200275124 /* AppDelegate.swift */,
-				B369227523368FA200275124 /* ViewController.swift */,
-				B369227723368FA200275124 /* Main.storyboard */,
-				B369227A23368FA300275124 /* Assets.xcassets */,
-				B369227C23368FA300275124 /* LaunchScreen.storyboard */,
-				B369227F23368FA300275124 /* Info.plist */,
+				B36922912336911E00275124 /* AppDelegate.swift */,
+				B36922932336911E00275124 /* ViewController.swift */,
+				B36922952336911E00275124 /* Main.storyboard */,
+				B36922982336911F00275124 /* Assets.xcassets */,
+				B369229A2336911F00275124 /* LaunchScreen.storyboard */,
+				B369229D2336911F00275124 /* Info.plist */,
 			);
-			path = RockPaperScissors;
+			path = RockPapperScissors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B369226F23368FA200275124 /* RockPaperScissors */ = {
+		B369228D2336911E00275124 /* RockPapperScissors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B369228223368FA300275124 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
+			buildConfigurationList = B36922A02336911F00275124 /* Build configuration list for PBXNativeTarget "RockPapperScissors" */;
 			buildPhases = (
-				B369226C23368FA200275124 /* Sources */,
-				B369226D23368FA200275124 /* Frameworks */,
-				B369226E23368FA200275124 /* Resources */,
+				B369228A2336911E00275124 /* Sources */,
+				B369228B2336911E00275124 /* Frameworks */,
+				B369228C2336911E00275124 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RockPaperScissors;
-			productName = RockPaperScissors;
-			productReference = B369227023368FA200275124 /* RockPaperScissors.app */;
+			name = RockPapperScissors;
+			productName = RockPapperScissors;
+			productReference = B369228E2336911E00275124 /* RockPapperScissors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B369226823368FA200275124 /* Project object */ = {
+		B36922862336911E00275124 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Tonipocket;
 				TargetAttributes = {
-					B369226F23368FA200275124 = {
+					B369228D2336911E00275124 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = B369226B23368FA200275124 /* Build configuration list for PBXProject "RockPaperScissors" */;
+			buildConfigurationList = B36922892336911E00275124 /* Build configuration list for PBXProject "RockPapperScissors" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = B369226723368FA200275124;
-			productRefGroup = B369227123368FA200275124 /* Products */;
+			mainGroup = B36922852336911E00275124;
+			productRefGroup = B369228F2336911E00275124 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B369226F23368FA200275124 /* RockPaperScissors */,
+				B369228D2336911E00275124 /* RockPapperScissors */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B369226E23368FA200275124 /* Resources */ = {
+		B369228C2336911E00275124 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B369227E23368FA300275124 /* LaunchScreen.storyboard in Resources */,
-				B369227B23368FA300275124 /* Assets.xcassets in Resources */,
-				B369227923368FA200275124 /* Main.storyboard in Resources */,
+				B369229C2336911F00275124 /* LaunchScreen.storyboard in Resources */,
+				B36922992336911F00275124 /* Assets.xcassets in Resources */,
+				B36922972336911E00275124 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B369226C23368FA200275124 /* Sources */ = {
+		B369228A2336911E00275124 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B369227623368FA200275124 /* ViewController.swift in Sources */,
-				B369227423368FA200275124 /* AppDelegate.swift in Sources */,
+				B36922942336911E00275124 /* ViewController.swift in Sources */,
+				B36922922336911E00275124 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B369227723368FA200275124 /* Main.storyboard */ = {
+		B36922952336911E00275124 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B369227823368FA200275124 /* Base */,
+				B36922962336911E00275124 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B369227C23368FA300275124 /* LaunchScreen.storyboard */ = {
+		B369229A2336911F00275124 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B369227D23368FA300275124 /* Base */,
+				B369229B2336911F00275124 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B369228023368FA300275124 /* Debug */ = {
+		B369229E2336911F00275124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		B369228123368FA300275124 /* Release */ = {
+		B369229F2336911F00275124 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,34 +278,34 @@
 			};
 			name = Release;
 		};
-		B369228323368FA300275124 /* Debug */ = {
+		B36922A12336911F00275124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				INFOPLIST_FILE = RockPapperScissors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tonipocket123.RockPaperScissors;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tonipocket123.RockPapperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B369228423368FA300275124 /* Release */ = {
+		B36922A22336911F00275124 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				INFOPLIST_FILE = RockPapperScissors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tonipocket123.RockPaperScissors;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tonipocket123.RockPapperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B369226B23368FA200275124 /* Build configuration list for PBXProject "RockPaperScissors" */ = {
+		B36922892336911E00275124 /* Build configuration list for PBXProject "RockPapperScissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B369228023368FA300275124 /* Debug */,
-				B369228123368FA300275124 /* Release */,
+				B369229E2336911F00275124 /* Debug */,
+				B369229F2336911F00275124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B369228223368FA300275124 /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
+		B36922A02336911F00275124 /* Build configuration list for PBXNativeTarget "RockPapperScissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B369228323368FA300275124 /* Debug */,
-				B369228423368FA300275124 /* Release */,
+				B36922A12336911F00275124 /* Debug */,
+				B36922A22336911F00275124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B369226823368FA200275124 /* Project object */;
+	rootObject = B36922862336911E00275124 /* Project object */;
 }
