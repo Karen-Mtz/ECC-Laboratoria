@@ -393,7 +393,7 @@ greet("Taylor")
 greet("Taylor", nicely: false)
 
 //VARIADIC FUNCTIONS
-/*hey accept any number of
+/*they accept any number of
 parameters of the same type
 make any parameter variadic
 by writing ... after its type.*/
@@ -404,6 +404,7 @@ func square(numbers: Int...) {
 }
 //run
 square(numbers: 1, 2, 3, 4, 5)
+
 
 //THROWINGS FUNCTIONS
 enum PasswordError: Error {
@@ -430,6 +431,13 @@ func doubleInPlace(number: inout Int) {
     number *= 2
 }
 
+//otro ejemplo
+let n = 10
+func someIntegerModified(n: inout Int) {
+    n *= 2
+}
+someIntegerModified(n: &n)
+print(n)
 //https://www.hackingwithswift.com/sixty/5/11/functions-summary
 
 //STRUCS
